@@ -1,0 +1,8 @@
+pandas
+matplotlib
+requests
+wordcloud
+nltk
+transformers
+datetime
+torch
