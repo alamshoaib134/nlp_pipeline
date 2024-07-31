@@ -34,6 +34,6 @@ if response.status_code == 200:
 		for article in news_data['articles']:
 			writer.writerow([article['title'], article['description'], article['url']])
 	
-	printy(f"News articles saved to {filename}")
+	print(f"News articles saved to {filename}")
 else:
 	print(f"Failed to fetch news: {response.status_code}")
