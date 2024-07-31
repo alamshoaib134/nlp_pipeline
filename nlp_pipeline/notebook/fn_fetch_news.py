@@ -2,6 +2,7 @@ import requests
 import csv
 from datetime import datetime
 
+
 # Define the API endpoint and your API key
 url = 'https://newsapi.org/v2/top-headlines'
 api_key = 'b07207e5e7b44e5fb0fd275f501390a1'  # Replace with your actual API key
