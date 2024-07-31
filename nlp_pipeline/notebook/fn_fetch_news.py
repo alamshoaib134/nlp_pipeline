@@ -13,6 +13,7 @@ params = {
 	'apiKey': api_key
 }
 
+
 # Make the request to the API
 response = requests.get(url, params=params)
 
